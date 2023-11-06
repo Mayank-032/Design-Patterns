@@ -1,0 +1,17 @@
+Problem Statement:
+
+Let's say you are building a system for creating custom sandwiches, and you want to implement a builder 
+pattern for the Sandwich struct. The Sandwich can have various components like bread type, fillings, 
+condiments, and vegetables. Create a builder pattern for the Sandwich struct, and then evaluate your 
+implementation for correctness and provide a correct answer if needed.
+
+
+How I will proceed further
+1.) Create a Sandwich struct which will contain properties like
+    -> Type of Bread (BreadType string)
+    -> Fillings (Fillings []string)
+    -> Vegetables (Vegetables []string)
+    -> Extras (Extras []string)
+
+2.) My Sandwich builder will be used to get or set the values of this object and its build function will 
+    set the values of the object and return my object.
