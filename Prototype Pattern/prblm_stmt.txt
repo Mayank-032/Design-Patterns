@@ -1,0 +1,8 @@
+Problem Statement
+
+You are building a drawing application, and you need to create various shapes, such as circles and rectangles. 
+Users can create new shapes based on existing ones and modify their properties.
+
+Implement a prototype design pattern for shapes in Go. You should define an interface for shapes, including a 
+method to clone a shape. Create concrete implementations for circle and rectangle shapes. Users should be 
+able to create new shapes by cloning existing ones and modify their properties.
