@@ -1,0 +1,6 @@
+Problem Statement
+
+You are building a web application that requires a global configuration manager to handle application-wide 
+settings. The configuration settings should be read from a file, and you want to ensure that there's only 
+one instance of the configuration manager throughout the application's lifetime. Your task is to implement a 
+Singleton design pattern in Go for this configuration manager.
