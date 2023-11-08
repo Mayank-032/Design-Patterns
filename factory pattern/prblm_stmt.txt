@@ -1,0 +1,10 @@
+Problem Statement
+
+Create a notification system that can send different types of notifications based on specific events. For 
+example, send an email notification when a user registers for an account, or a push notification when an 
+order is shipped.
+
+Requirements:
+-> Define an interface for notifications.
+-> Implement concrete types for each type of notification, such as EmailNotification and PushNotification.
+-> Create a factory that can create the appropriate notification type based on the event type.
